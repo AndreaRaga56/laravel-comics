@@ -105,9 +105,23 @@ footer{
     margin-top: -98px;
 }
 
-.main-footer .container div{
-    // margin-top: 180px;
-    color: red;
+.main-footer .container .row{
+    color:white;
+    width: 45%;
+}
+.main-footer h2{
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.main-footer a{
+    color: rgb(162, 162, 162);
+    text-decoration-line: none;
 }
 
 .bottom-footer{
