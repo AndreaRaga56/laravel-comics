@@ -2,7 +2,7 @@
     <div class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a href="#" class="navbar-brand">
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo" style="height: 80px;">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,16 @@
                         <a class="nav-link {{ request()->is('shop') ? 'active' : '' }}" href="#">SHOP</a>
                     </li>
                 </ul>
-                <style>
-                    .nav-link.active {
-                        border-bottom: 3px solid #007bff; /* Replace #007bff with the color of your logo */
-                    }
-                </style>
+
                 </ul>
             </div>
         </div>
     </div>
 </nav>
+<div class="hero">
+
+
+</div>
+<div class="container">
+    <p class="current">CURRENT SERIES</p>
+</div>
