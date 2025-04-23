@@ -97,6 +97,33 @@
     </div>
 
     <div class="bottom-footer">
+        <div class="container">
+            <button class="sign-up">SIGN-UP NOW!</button>
+            <div class="row">
+                <div class="col-5">
+                    <div>
+                        <h2>FOLLOW US</h2>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="{{ Vite::asset("resources/img/footer-facebook.png") }}" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="{{ Vite::asset("resources/img/footer-twitter.png") }}" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="{{ Vite::asset("resources/img/footer-youtube.png") }}" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="{{ Vite::asset("resources/img/footer-pinterest.png") }}" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="{{ Vite::asset("resources/img/footer-periscope.png") }}" alt="">
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
