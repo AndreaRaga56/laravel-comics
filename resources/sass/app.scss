@@ -51,4 +51,32 @@
     font-weight: 800;
 }
 
+.top-footer{
+    background-color: #007bff;
+    max-height: 128.76px;
+}
+
+
+.cta{
+    padding: 2rem 0rem;
+    display: flex;
+    max-height: 100%;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.cta img{
+    height: 50px;
+    max-width: 50px;
+}
+
+.cta p{
+    margin: 0;
+    height: auto;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
