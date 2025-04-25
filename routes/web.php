@@ -14,3 +14,8 @@ Route::get('/movies', function () {
     return view('movies', compact("nomePagina"));
 })->name("movies");
 
+Route::get('/', function () {
+    $nomePagina="Comics";
+    // return view('home', ["a" => $ciao, "b"=>1]);
+    return view('comics', compact("nomePagina"));
+})->name("comics");

@@ -12,7 +12,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('characters') ? 'active' : '' }}"
-                            href="#">CHARACTERS</a>
+                            href="">CHARACTERS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('comics') ? 'active' : '' }}"
@@ -22,26 +22,26 @@
                         <a class="nav-link {{ request()->is('movies') ? 'active' : '' }}" href="{{ route('movies') }}">MOVIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('tv') ? 'active' : '' }}" href="#">TV</a>
+                        <a class="nav-link {{ request()->is('tv') ? 'active' : '' }}" href="">TV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('games') ? 'active' : '' }}" href="#">GAMES</a>
+                        <a class="nav-link {{ request()->is('games') ? 'active' : '' }}" href="">GAMES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('collectibles') ? 'active' : '' }}"
-                            href="#">COLLECTIBLES</a>
+                            href="">COLLECTIBLES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('videos') ? 'active' : '' }}" href="#">VIDEOS</a>
+                        <a class="nav-link {{ request()->is('videos') ? 'active' : '' }}" href="">VIDEOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('fan') ? 'active' : '' }}" href="#">FAN</a>
+                        <a class="nav-link {{ request()->is('fan') ? 'active' : '' }}" href="">FAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('news') ? 'active' : '' }}" href="#">NEWS</a>
+                        <a class="nav-link {{ request()->is('news') ? 'active' : '' }}" href="">NEWS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('shop') ? 'active' : '' }}" href="#">SHOP</a>
+                        <a class="nav-link {{ request()->is('shop') ? 'active' : '' }}" href="">SHOP</a>
                     </li>
                 </ul>
                 </ul>
